@@ -10,6 +10,8 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   images: { unoptimized: true },
   reactStrictMode: true,
+  // Next.js 16 writes an AGENTS.md for AI coding agents on `next dev`; this project doesn't track it.
+  agentRules: false,
 };
 
 export default nextConfig;
