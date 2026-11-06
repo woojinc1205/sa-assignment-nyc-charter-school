@@ -32,7 +32,21 @@ Open http://localhost:3000. To build the static site into `out/`:
 npm run build
 ```
 
-`out/` can be hosted anywhere static. For a GitHub Pages project site, build with the repo name as the base path:
+`out/` can be hosted anywhere static.
+
+### Deploy to GitHub Pages
+
+[`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) builds the site and publishes it on every push to `main`,
+or on demand from the Actions tab (**Deploy to GitHub Pages → Run workflow**). The site goes live at
+`https://<owner>.github.io/sa-assignment-nyc-charter-school/`.
+
+One-time setup:
+
+1. In the repo, open **Settings → Pages** and set **Source** to **GitHub Actions**.
+2. Merge the work into `main`. To deploy from another branch first, add it under **Settings → Environments →
+   github-pages → Deployment branches**, then run the workflow from that branch.
+
+To build the same way by hand, set the repo name as the base path:
 
 ```bash
 NEXT_PUBLIC_BASE_PATH=/sa-assignment-nyc-charter-school npm run build
