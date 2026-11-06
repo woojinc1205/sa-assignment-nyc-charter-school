@@ -1,12 +1,13 @@
 "use client";
 
 import { useMemo } from "react";
-import type { CampusProps } from "@/lib/types";
-import { gradeSpan } from "@/lib/types";
+import type { CampusProps, SchoolsMeta } from "@/lib/types";
+import { gradeSpan, schoolYear } from "@/lib/types";
 import { milesBetween } from "@/lib/filters";
 
 interface Props {
   campuses: CampusProps[];
+  meta: SchoolsMeta;
   userLocation: [number, number] | null;
   sortByDistance: boolean;
   onSortByDistance: (on: boolean) => void;
@@ -29,7 +30,7 @@ export function countLabel(schools: number, campuses: number): string {
 
 /** List view: the accessible alternative to the map (PRD 6.2, 7). One card per school. */
 export default function ListView(props: Props) {
-  const { campuses, userLocation, sortByDistance, onSortByDistance, onOpen, onShowOnMap, onClear, hasFilters } = props;
+  const { campuses, meta, userLocation, sortByDistance, onSortByDistance, onOpen, onShowOnMap, onClear, hasFilters } = props;
 
   const groups = useMemo<Group[]>(() => {
     const by = new Map<string, CampusProps[]>();
@@ -89,7 +90,7 @@ export default function ListView(props: Props) {
                 {[lead.network, lead.borough, gradeSpan(lead), g.distance !== null ? `${g.distance.toFixed(1)} mi` : null]
                   .filter(Boolean).join(" · ")}
               </p>
-              {closed && <p className="badge">May have closed — last listed 2019–20</p>}
+              {closed && <p className="badge">May have closed — last listed {schoolYear(meta.source_a.as_of)}</p>}
               {!many && <p className="meta">{lead.address}</p>}
               {many && (
                 <ul className="campus-list" aria-label={`${g.campuses.length} campuses`}>

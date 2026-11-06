@@ -129,7 +129,7 @@ Pin colour (`styleUrl`) encodes borough only, so it can be ignored.
 
 ## 5. Data method
 
-Run as a build-time script (Node or Python). Output one clean `schools.geojson` the app loads. No live scraping in the browser.
+Run as a build-time TypeScript script in the Next.js project. Output one clean `schools.geojson` the app loads. No live scraping in the browser.
 
 ### 5.1 Pipeline
 1. **Ingest.** Fetch A from the endpoint in 4.1 and save a dated snapshot. Parse B's placemarks into rows using the fields in 4.2.
@@ -292,8 +292,8 @@ Source: project doc `success-academy-design-system.md`. Use its CSS tokens (sect
 | Basemap tiles | **OpenFreeMap** — free vector tiles, no API key (decision D8) |
 | Frontend | Vanilla JS or a light framework (e.g. Vite + React/Svelte) |
 | Data build | Script: parse JSON + KML → merge → `schools.geojson` |
-| KML parsing | `@tmcw/togeojson` (JS) or Python `xml.etree` (the file is flat and regular) |
-| Join | Exact DBN join; `rapidfuzz` only for the fallback name check |
+| KML parsing | `fast-xml-parser` in TypeScript, inside the Next.js project (the file is flat and regular) |
+| Join | Exact DBN join; a TypeScript name-similarity check only for the fallback |
 | Geocoding | NYC Planning Labs GeoSearch; fallback NYC Geoclient / Nominatim |
 | Borough check | NYC borough boundaries GeoJSON + `@turf/boolean-point-in-polygon` |
 

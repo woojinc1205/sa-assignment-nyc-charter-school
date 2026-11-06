@@ -7,6 +7,10 @@ import {
   EMPTY_FILTERS, activeCount, matches, readUrl, writeUrl, type Filters, type View,
 } from "@/lib/filters";
 import type { FocusRequest } from "./MapView";
+import { clearRefreshed, loadRefreshed } from "@/lib/refresh-store";
+import type { RefreshResult } from "@/lib/refresh";
+import type { ReportRow } from "@/lib/pipeline/build";
+import DataPanel from "./DataPanel";
 import FilterControls from "./FilterControls";
 import ListView, { countLabel } from "./ListView";
 import DetailPanel from "./DetailPanel";
@@ -34,7 +38,11 @@ function useIsDesktop(): boolean {
 }
 
 export default function SchoolFinder() {
+  // `published` is the build the site shipped with; `all` is what's shown (it differs after an in-app refresh).
+  const [published, setPublished] = useState<SchoolsCollection | null>(null);
   const [all, setAll] = useState<SchoolsCollection | null>(null);
+  const [report, setReport] = useState<ReportRow[] | null>(null);
+  const [dataOpen, setDataOpen] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [filters, setFilters] = useState<Filters>(EMPTY_FILTERS);
   const [view, setView] = useState<View>("map");
@@ -58,7 +66,12 @@ export default function SchoolFinder() {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return r.json() as Promise<SchoolsCollection>;
       })
-      .then(setAll)
+      .then((pub) => {
+        const saved = loadRefreshed(pub); // an earlier in-app refresh made from this same build
+        setPublished(pub);
+        setAll(saved?.collection ?? pub);
+        setReport(saved?.report ?? null);
+      })
       .catch((e: Error) => setError(e.message));
   }, []);
 
@@ -89,6 +102,19 @@ export default function SchoolFinder() {
         .filter((c) => c.school_id === selectedCampuses[0].school_id && c.campus_id !== selectedCampuses[0].campus_id)
     : [];
 
+  const onRefreshed = useCallback((r: RefreshResult) => {
+    setAll(r.collection);
+    setReport(r.report);
+    const ids = new Set(r.collection.features.map((f) => f.properties.campus_id));
+    setSelected((sel) => sel.filter((id) => ids.has(id))); // drop a selection that no longer exists
+  }, []);
+  const onReset = useCallback(() => {
+    clearRefreshed();
+    setAll(published);
+    setReport(null);
+    setSelected([]);
+  }, [published]);
+
   const clearAll = useCallback(() => setFilters(EMPTY_FILTERS), []);
   const closeDetail = useCallback(() => setSelected([]), []);
   const open = useCallback((id: string) => setSelected([id]), []);
@@ -115,9 +141,10 @@ export default function SchoolFinder() {
   const nActive = activeCount(filters);
   const showDetail = selectedCampuses.length > 0;
 
-  const list = (
+  const list = all ? (
     <ListView
       campuses={campuses}
+      meta={all.metadata}
       userLocation={userLocation}
       sortByDistance={sortByDistance}
       onSortByDistance={requestDistanceSort}
@@ -126,20 +153,34 @@ export default function SchoolFinder() {
       onClear={clearAll}
       hasFilters={nActive > 0}
     />
-  );
+  ) : null;
 
   return (
     <div className={`app view-${view}${showDetail ? " has-detail" : ""}`}>
       <header className="app-header">
-        <p className="eyebrow">NYC Charter Schools</p>
-        <h1 className="app-title">Find a Charter School Near You</h1>
+        <div className="app-heading">
+          <p className="eyebrow">NYC Charter Schools</p>
+          <h1 className="app-title">Find a Charter School Near You</h1>
+        </div>
+        {all && (
+          <button
+            type="button"
+            className="text-link secondary data-link"
+            aria-haspopup="dialog"
+            aria-label={`Data and updates${all.metadata.refreshed ? " (refreshed)" : ""}`}
+            onClick={() => setDataOpen(true)}
+          >
+            <span className="data-full" aria-hidden="true">Data &amp; updates{all.metadata.refreshed ? " · refreshed" : ""}</span>
+            <span className="data-short" aria-hidden="true">Data{all.metadata.refreshed && <span className="refreshed-mark" />}</span>
+          </button>
+        )}
       </header>
 
       <div className="layout">
         {isDesktop && (
           <aside className="panel" aria-label="Filters and results">
-            {showDetail ? (
-              <DetailPanel campuses={selectedCampuses} siblings={siblings} isDesktop onClose={closeDetail}
+            {showDetail && all ? (
+              <DetailPanel campuses={selectedCampuses} meta={all.metadata} siblings={siblings} isDesktop onClose={closeDetail}
                 onPick={open} onShowOnMap={showOnMap} />
             ) : (
               <>
@@ -215,8 +256,20 @@ export default function SchoolFinder() {
         </>
       )}
 
-      {!isDesktop && showDetail && (
-        <DetailPanel campuses={selectedCampuses} siblings={siblings} isDesktop={false} onClose={closeDetail}
+      {dataOpen && all && published && (
+        <DataPanel
+          data={all}
+          published={published}
+          report={report}
+          isDesktop={isDesktop}
+          onClose={() => setDataOpen(false)}
+          onRefreshed={onRefreshed}
+          onReset={onReset}
+        />
+      )}
+
+      {!isDesktop && showDetail && all && (
+        <DetailPanel campuses={selectedCampuses} meta={all.metadata} siblings={siblings} isDesktop={false} onClose={closeDetail}
           onPick={open} onShowOnMap={showOnMap} />
       )}
     </div>

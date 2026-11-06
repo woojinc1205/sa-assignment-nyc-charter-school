@@ -49,11 +49,16 @@ export interface CampusProps {
 }
 
 export interface SchoolsMeta {
+  /** ISO timestamp of the build or refresh that produced this data. */
   generated: string;
-  source_a: { name: string; snapshot: string; as_of: string };
+  /** NYC Open Data school list. `as_of` is the fiscal year (e.g. "2020" = school year 2019–20). */
+  source_a: { name: string; as_of: string; fetched: string };
+  /** Charter campus KML. `as_of` is an ISO date taken from the KML's own folder name. */
   source_b: { name: string; as_of: string };
   campuses: number;
   schools: number;
+  /** Set when this data came from the in-app refresh instead of the published build. */
+  refreshed?: { at: string; json: "published" | "live"; kml: "published" | "repo" };
 }
 
 export interface SchoolsCollection {
@@ -90,4 +95,24 @@ export function gradeSpan(p: Pick<CampusProps, "grade_min" | "grade_max">): stri
   if (p.grade_min === undefined || p.grade_max === undefined) return "Grades unknown";
   if (p.grade_min === p.grade_max) return gradeLabel(p.grade_min);
   return `${gradeLabel(p.grade_min)}–${gradeLabel(p.grade_max)}`;
+}
+
+/** Fiscal year "2020" -> school year "2019–20". */
+export function schoolYear(fiscalYear: string): string {
+  const y = parseInt(fiscalYear.slice(0, 4), 10);
+  return Number.isFinite(y) ? `${y - 1}–${String(y).slice(2)}` : fiscalYear;
+}
+
+const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+/** "2025-09-18" -> "18 September 2025"; "2026-11-06T…" works too. */
+export function formatDate(iso: string): string {
+  const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso);
+  return m ? `${parseInt(m[3], 10)} ${MONTHS[parseInt(m[2], 10) - 1]} ${m[1]}` : iso;
+}
+
+/** "2025-09-18" -> "Sep 2025". */
+export function formatMonth(iso: string): string {
+  const m = /^(\d{4})-(\d{2})/.exec(iso);
+  return m ? `${MONTHS[parseInt(m[2], 10) - 1].slice(0, 3)} ${m[1]}` : iso;
 }

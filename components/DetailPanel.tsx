@@ -1,12 +1,13 @@
 "use client";
 
 import { useEffect, useRef, useState, type ReactNode } from "react";
-import type { CampusProps } from "@/lib/types";
-import { formatGrades, gradeSpan } from "@/lib/types";
+import type { CampusProps, SchoolsMeta } from "@/lib/types";
+import { formatDate, formatGrades, formatMonth, gradeSpan, schoolYear } from "@/lib/types";
 
 interface Props {
   /** One campus = details. Several = "schools at this address" picker. */
   campuses: CampusProps[];
+  meta: SchoolsMeta;
   siblings: CampusProps[];
   isDesktop: boolean;
   onClose: () => void;
@@ -14,14 +15,15 @@ interface Props {
   onShowOnMap: (campusId: string) => void;
 }
 
-const SOURCE_LABEL: Record<CampusProps["source"], string> = {
-  "json+kml": "NYC Charter School Campuses map (Sep 2025) + NYC Open Data school locations (2019–20)",
-  kml: "NYC Charter School Campuses map (Sep 2025)",
-  json: "NYC Open Data school locations (2019–20)",
-};
+function sourceLabel(source: CampusProps["source"], meta: SchoolsMeta): string {
+  const kml = `NYC Charter School Campuses map (${formatMonth(meta.source_b.as_of)})`;
+  const json = `NYC Open Data school locations (${schoolYear(meta.source_a.as_of)})`;
+  return source === "json+kml" ? `${kml} + ${json}` : source === "kml" ? kml : json;
+}
 
+/** Fiscal-year data ("2020") reads as a school year; KML data as a date. */
 function asOf(p: CampusProps): string {
-  return p.data_as_of.length === 4 ? `${p.data_as_of} (school year 2019–20)` : "18 September 2025";
+  return p.data_as_of.length === 4 ? `school year ${schoolYear(p.data_as_of)}` : formatDate(p.data_as_of);
 }
 
 function directionsUrl(p: CampusProps): string {
@@ -43,7 +45,7 @@ function Row({ label, children }: { label: string; children: ReactNode }) {
 }
 
 /** School detail (PRD 6.4). Mobile: bottom sheet, half height, swipe to full. Desktop: side panel. */
-export default function DetailPanel({ campuses, siblings, isDesktop, onClose, onPick, onShowOnMap }: Props) {
+export default function DetailPanel({ campuses, meta, siblings, isDesktop, onClose, onPick, onShowOnMap }: Props) {
   const [full, setFull] = useState(false);
   const [dragY, setDragY] = useState(0);
   const start = useRef<number | null>(null);
@@ -80,6 +82,7 @@ export default function DetailPanel({ campuses, siblings, isDesktop, onClose, on
   const picker = campuses.length > 1;
   const p = campuses[0];
   const closed = p.flags.includes("maybe_closed");
+  const yr = schoolYear(meta.source_a.as_of);
 
   const body = picker ? (
     <>
@@ -107,7 +110,7 @@ export default function DetailPanel({ campuses, siblings, isDesktop, onClose, on
 
       {closed && (
         <p className="notice" role="note">
-          <strong>May have closed.</strong> This school is in the 2019–20 city list but missing from the September 2025
+          <strong>May have closed.</strong> This school is in the {yr} city list but missing from the {formatDate(meta.source_b.as_of)}
           charter campus list. Check with the school before you visit.
         </p>
       )}
@@ -131,9 +134,9 @@ export default function DetailPanel({ campuses, siblings, isDesktop, onClose, on
           {p.grade_bands.length > 0 && <span className="meta block">{p.grade_bands.join(" · ")}</span>}
         </Row>
         {p.grades_final && p.grades_final.length > 0 && formatGrades(p.grades_final) !== formatGrades(p.grades) && (
-          <Row label="Planned grade span (2019–20)">{formatGrades(p.grades_final)}</Row>
+          <Row label={`Planned grade span (${yr})`}>{formatGrades(p.grades_final)}</Row>
         )}
-        {p.principal && <Row label="Principal (2019–20)">{p.principal}</Row>}
+        {p.principal && <Row label={`Principal (${yr})`}>{p.principal}</Row>}
         {p.opened && <Row label="Opened">{p.opened}</Row>}
         <Row label="IDs">DBN {p.school_id} · Campus {p.campus_id}</Row>
       </dl>
@@ -155,7 +158,7 @@ export default function DetailPanel({ campuses, siblings, isDesktop, onClose, on
       )}
 
       <p className="source">
-        Source: {SOURCE_LABEL[p.source]}. Data as of {asOf(p)}.
+        Source: {sourceLabel(p.source, meta)}. Data as of {asOf(p)}.
         {p.flags.includes("borough_corrected") && " Borough corrected from the source using the address's location."}
       </p>
     </>
