@@ -1,0 +1,1521 @@
+{
+ "geosearch|1000 Westchester Ave, Bronx, NY 10459": {
+  "lng": -73.8934,
+  "lat": 40.82354,
+  "label": "1000 WESTCHESTER AVENUE, Bronx, NY, USA",
+  "postalcode": "10459",
+  "borough": "Bronx"
+ },
+ "geosearch|1001 EAST 100 STREET, Brooklyn, NY 11236": {
+  "lng": -73.895631,
+  "lat": 40.643499,
+  "label": "1001 EAST 100 STREET, Brooklyn, NY, USA",
+  "postalcode": "11236",
+  "borough": "Brooklyn"
+ },
+ "geosearch|1005 INTERVALE AVENUE, Bronx, NY 10459": {
+  "lng": -73.897374,
+  "lat": 40.823404,
+  "label": "1005 INTERVALE AVENUE, Bronx, NY, USA",
+  "postalcode": "10459",
+  "borough": "Bronx"
+ },
+ "geosearch|1060 Clarkson Avenue, Brooklyn, NY 11212": {
+  "lng": -73.922771,
+  "lat": 40.659006,
+  "label": "1060 CLARKSON AVENUE, Brooklyn, NY, USA",
+  "postalcode": "11212",
+  "borough": "Brooklyn"
+ },
+ "geosearch|108 Cooper Street, Manhattan, NY 10034": {
+  "lng": -73.921021,
+  "lat": 40.869055,
+  "label": "108 COOPER STREET, New York, NY, USA",
+  "postalcode": "10034",
+  "borough": "Manhattan"
+ },
+ "geosearch|108-68 ROOSEVELT AVENUE, Queens, NY 11368": {
+  "lng": -73.856133,
+  "lat": 40.751282,
+  "label": "108-68 ROOSEVELT AVENUE, South Corona, NY, USA",
+  "postalcode": "11368",
+  "borough": "Queens"
+ },
+ "geosearch|109-55 128 Street, Queens, NY 11420": {
+  "lng": -73.813242,
+  "lat": 40.683083,
+  "label": "109-55 128 STREET, Richmond Hill, NY, USA",
+  "postalcode": "11420",
+  "borough": "Queens"
+ },
+ "geosearch|109-55 128 Street. Queens, Queens, NY 11420": {
+  "lng": -73.813242,
+  "lat": 40.683083,
+  "label": "109-55 128 STREET, Richmond Hill, NY, USA",
+  "postalcode": "11420",
+  "borough": "Queens"
+ },
+ "geosearch|1093 Southern Boulevard, Bronx, NY 10459": {
+  "lng": -73.892205,
+  "lat": 40.825855,
+  "label": "1093 SOUTHERN BOULEVARD, Bronx, NY, USA",
+  "postalcode": "10459",
+  "borough": "Bronx"
+ },
+ "geosearch|11 BARTLETT STREET, Brooklyn, NY 11206": {
+  "lng": -73.948184,
+  "lat": 40.700282,
+  "label": "11 BARTLETT STREET, Brooklyn, NY, USA",
+  "postalcode": "11206",
+  "borough": "Brooklyn"
+ },
+ "geosearch|111 East 33Rd Street, Manhattan, NY 10016": {
+  "lng": -73.981003,
+  "lat": 40.746449,
+  "label": "111 EAST 33 STREET, New York, NY, USA",
+  "postalcode": "10016",
+  "borough": "Manhattan"
+ },
+ "geosearch|1110 Washington Avenue, Bronx, NY 10456": {
+  "lng": -73.90789,
+  "lat": 40.82874,
+  "label": "1110 WASHINGTON AVENUE, Bronx, NY, USA",
+  "postalcode": "10456",
+  "borough": "Bronx"
+ },
+ "geosearch|114 KOSCIUSZKO STREET, Brooklyn, NY 11216": {
+  "lng": -73.950112,
+  "lat": 40.690485,
+  "label": "114 KOSCIUSZKO STREET, Brooklyn, NY, USA",
+  "postalcode": "11216",
+  "borough": "Brooklyn"
+ },
+ "geosearch|115-30 221st St, Queens, NY 11411": {
+  "lng": -73.737451,
+  "lat": 40.698879,
+  "label": "115-30 221 STREET, Cambria Heights, NY, USA",
+  "postalcode": "11411",
+  "borough": "Queens"
+ },
+ "geosearch|116 E 169 Street, Bronx, NY": {
+  "lng": -73.917478,
+  "lat": 40.836722,
+  "label": "116 EAST 169 STREET, Bronx, NY, USA",
+  "postalcode": "10452",
+  "borough": "Bronx"
+ },
+ "geosearch|116 E 169 Street, Bronx, NY 10456": {
+  "lng": -73.910775,
+  "lat": 40.834379,
+  "label": "362 EAST 169 STREET, Bronx, NY, USA",
+  "postalcode": "10456",
+  "borough": "Bronx"
+ },
+ "geosearch|116 East 169 Street, Bronx, NY 10452": {
+  "lng": -73.917478,
+  "lat": 40.836722,
+  "label": "116 EAST 169 STREET, Bronx, NY, USA",
+  "postalcode": "10452",
+  "borough": "Bronx"
+ },
+ "geosearch|116 East 169 Street, Bronx, NY 10456": {
+  "lng": -73.910775,
+  "lat": 40.834379,
+  "label": "362 EAST 169 STREET, Bronx, NY, USA",
+  "postalcode": "10456",
+  "borough": "Bronx"
+ },
+ "geosearch|1160 BEACH AVENUE, Bronx, NY 10472": {
+  "lng": -73.86549,
+  "lat": 40.829342,
+  "label": "1160 BEACH AVENUE, Bronx, NY, USA",
+  "postalcode": "10472",
+  "borough": "Bronx"
+ },
+ "geosearch|1160 East 213 Street, Bronx, NY 10469": {
+  "lng": -73.852577,
+  "lat": 40.875126,
+  "label": "1160 EAST 213 STREET, Bronx, NY, USA",
+  "postalcode": "10469",
+  "borough": "Bronx"
+ },
+ "geosearch|1160 East 213th Street, Bronx, NY 10469": {
+  "lng": -73.852577,
+  "lat": 40.875126,
+  "label": "1160 EAST 213 STREET, Bronx, NY, USA",
+  "postalcode": "10469",
+  "borough": "Bronx"
+ },
+ "geosearch|1166 River Avenue, Bronx, NY 10452": {
+  "lng": -73.92151,
+  "lat": 40.83472,
+  "label": "1166 RIVER AVENUE, Bronx, NY, USA",
+  "postalcode": "10452",
+  "borough": "Bronx"
+ },
+ "geosearch|1166-1182 River Avenue, Bronx, NY 10452": {
+  "lng": -73.92151,
+  "lat": 40.83472,
+  "label": "1182 RIVER AVENUE, Bronx, NY, USA",
+  "postalcode": "10452",
+  "borough": "Bronx"
+ },
+ "geosearch|118-34 RIVERTON STREET, Queens, NY 11412": {
+  "lng": -73.763561,
+  "lat": 40.689334,
+  "label": "118-34 RIVERTON STREET, St. Albans, NY, USA",
+  "postalcode": "11412",
+  "borough": "Queens"
+ },
+ "geosearch|118-49 Montauk Street, Queens, NY 11412": {
+  "lng": -73.763478,
+  "lat": 40.688268,
+  "label": "118-49 MONTAUK STREET, St. Albans, NY, USA",
+  "postalcode": "11412",
+  "borough": "Queens"
+ },
+ "geosearch|12-79 REDFERN AVENUE, Queens, NY 11691": {
+  "lng": -73.750545,
+  "lat": 40.609533,
+  "label": "12-79 REDFERN AVENUE, Far Rockaway, NY, USA",
+  "postalcode": "11691",
+  "borough": "Queens"
+ },
+ "geosearch|121 East 177th Street, Bronx, NY 10453": {
+  "lng": -73.907245,
+  "lat": 40.849853,
+  "label": "121 EAST 177 STREET, Bronx, NY, USA",
+  "postalcode": "10453",
+  "borough": "Bronx"
+ },
+ "geosearch|1222 63rd Street, Brooklyn, NY 11219": {
+  "lng": -74.001891,
+  "lat": 40.627798,
+  "label": "1222 63 STREET, Brooklyn, NY, USA",
+  "postalcode": "11219",
+  "borough": "Brooklyn"
+ },
+ "geosearch|123 EAST 98TH STREET, Brooklyn, NY 11212": {
+  "lng": -73.921532,
+  "lat": 40.664125,
+  "label": "123 EAST 98 STREET, Brooklyn, NY, USA",
+  "postalcode": "11212",
+  "borough": "Brooklyn"
+ },
+ "geosearch|123 Linden Boulevard, Brooklyn, NY 11226": {
+  "lng": -73.954305,
+  "lat": 40.652714,
+  "label": "123 LINDEN BOULEVARD, Brooklyn, NY, USA",
+  "postalcode": "11226",
+  "borough": "Brooklyn"
+ },
+ "geosearch|1232 SOUTHERN BOULEVARD, Bronx, NY 10459": {
+  "lng": -73.891506,
+  "lat": 40.829726,
+  "label": "1232 SOUTHERN BOULEVARD, Bronx, NY, USA",
+  "postalcode": "10459",
+  "borough": "Bronx"
+ },
+ "geosearch|1239 LAFAYETTE AVENUE, Bronx, NY 10474": {
+  "lng": -73.89087,
+  "lat": 40.817106,
+  "label": "1239 LAFAYETTE AVENUE, Bronx, NY, USA",
+  "postalcode": "10474",
+  "borough": "Bronx"
+ },
+ "geosearch|124 Eames Place, Bronx, NY 10468": {
+  "lng": -73.901973,
+  "lat": 40.869146,
+  "label": "124 EAMES PLACE, Bronx, NY, USA",
+  "postalcode": "10468",
+  "borough": "Bronx"
+ },
+ "geosearch|1248 Nelson Ave, Bronx, NY 10452": {
+  "lng": -73.924304,
+  "lat": 40.83875,
+  "label": "1248 NELSON AVENUE, Bronx, NY, USA",
+  "postalcode": "10452",
+  "borough": "Bronx"
+ },
+ "geosearch|125 COVERT STREET, Brooklyn, NY 11207": {
+  "lng": -73.910333,
+  "lat": 40.688922,
+  "label": "125 COVERT STREET, Brooklyn, NY, USA",
+  "postalcode": "11207",
+  "borough": "Brooklyn"
+ },
+ "geosearch|1256 East 21st Street, Brooklyn, NY 11210": {
+  "lng": -73.95504,
+  "lat": 40.622443,
+  "label": "1256 EAST 21 STREET, Brooklyn, NY, USA",
+  "postalcode": "11210",
+  "borough": "Brooklyn"
+ },
+ "geosearch|1275 Grand Concourse, Bronx, NY 10452": {
+  "lng": -73.916551,
+  "lat": 40.836471,
+  "label": "1275 GRAND CONCOURSE, Bronx, NY, USA",
+  "postalcode": "10452",
+  "borough": "Bronx"
+ },
+ "geosearch|1325 Jerome Avenue, Bronx, NY 10454": {
+  "lng": -73.919275,
+  "lat": 40.83862,
+  "label": "1325 JEROME AVENUE, Bronx, NY, USA",
+  "postalcode": "10452",
+  "borough": "Bronx"
+ },
+ "geosearch|133 27th Avenue, Brooklyn, NY 11214": {
+  "lng": -73.987309,
+  "lat": 40.590512,
+  "label": "133 27 AVENUE, Brooklyn, NY, USA",
+  "postalcode": "11214",
+  "borough": "Brooklyn"
+ },
+ "geosearch|1332 Fulton Avenue, Bronx, NY 10456": {
+  "lng": -73.902497,
+  "lat": 40.832991,
+  "label": "1332 FULTON AVENUE, Bronx, NY, USA",
+  "postalcode": "10456",
+  "borough": "Bronx"
+ },
+ "geosearch|1366 Cromwell Ave, Bronx, NY 10452": {
+  "lng": -73.92,
+  "lat": 40.83999,
+  "label": "1366 CROMWELL AVENUE, Bronx, NY, USA",
+  "postalcode": "10452",
+  "borough": "Bronx"
+ },
+ "geosearch|140 MONTROSE AVENUE, Brooklyn, NY 11206": {
+  "lng": -73.943785,
+  "lat": 40.706981,
+  "label": "140 MONTROSE AVENUE, Brooklyn, NY, USA",
+  "postalcode": "11206",
+  "borough": "Brooklyn"
+ },
+ "geosearch|1401 Inwood Avenue, Bronx, NY 10452": {
+  "lng": -73.91924,
+  "lat": 40.84097,
+  "label": "1401 INWOOD AVENUE, Bronx, NY, USA",
+  "postalcode": "10452",
+  "borough": "Bronx"
+ },
+ "geosearch|141 East 111 Street, Manhattan, NY 10029": {
+  "lng": -73.944552,
+  "lat": 40.796327,
+  "label": "141 EAST 111 STREET, New York, NY, USA",
+  "postalcode": "10029",
+  "borough": "Manhattan"
+ },
+ "geosearch|1440 STORY AVENUE, Bronx, NY 10473": {
+  "lng": -73.880788,
+  "lat": 40.820829,
+  "label": "1440 STORY AVENUE, Bronx, NY, USA",
+  "postalcode": "10473",
+  "borough": "Bronx"
+ },
+ "geosearch|1441 South Avenue, Staten Island, NY 10314": {
+  "lng": -74.18069,
+  "lat": 40.604468,
+  "label": "1441 SOUTH AVENUE, Staten Island, NY, USA",
+  "postalcode": "10314",
+  "borough": "Staten Island"
+ },
+ "geosearch|1475 MACOMBS ROAD, Bronx, NY 10452": {
+  "lng": -73.91836,
+  "lat": 40.84216,
+  "label": "1475 MACOMBS ROAD, Bronx, NY, USA",
+  "postalcode": "10452",
+  "borough": "Bronx"
+ },
+ "geosearch|1485 PACIFIC STREET, Brooklyn, NY 11216": {
+  "lng": -73.942271,
+  "lat": 40.677629,
+  "label": "1485 PACIFIC STREET, Brooklyn, NY, USA",
+  "postalcode": "11216",
+  "borough": "Brooklyn"
+ },
+ "geosearch|1501 PITKIN AVENUE, Brooklyn, NY 11212": {
+  "lng": -73.917885,
+  "lat": 40.668975,
+  "label": "1501 PITKIN AVENUE, Brooklyn, NY, USA",
+  "postalcode": "11212",
+  "borough": "Brooklyn"
+ },
+ "geosearch|1504 MACOMBS ROAD, Bronx, NY 10452": {
+  "lng": -73.91729,
+  "lat": 40.84335,
+  "label": "1504 MACOMBS ROAD, Bronx, NY, USA",
+  "postalcode": "10452",
+  "borough": "Bronx"
+ },
+ "geosearch|1520 Central Avenue, Queens, NY 11691": {
+  "lng": -73.751806,
+  "lat": 40.605643,
+  "label": "1520 CENTRAL AVENUE, Far Rockaway, NY, USA",
+  "postalcode": "11691",
+  "borough": "Queens"
+ },
+ "geosearch|1525 BROOK AVENUE, Bronx, NY 10457": {
+  "lng": -73.905008,
+  "lat": 40.839117,
+  "label": "1525 BROOK AVENUE, Bronx, NY, USA",
+  "postalcode": "10457",
+  "borough": "Bronx"
+ },
+ "geosearch|1526 Central Avenue, Queens, NY 11691": {
+  "lng": -73.752062,
+  "lat": 40.605591,
+  "label": "1526 CENTRAL AVENUE, Far Rockaway, NY, USA",
+  "postalcode": "11691",
+  "borough": "Queens"
+ },
+ "geosearch|1529 Williamsbridge Road, Bronx, NY 10461": {
+  "lng": -73.847319,
+  "lat": 40.845094,
+  "label": "1529 WILLIAMSBRIDGE ROAD, Bronx, NY, USA",
+  "postalcode": "10461",
+  "borough": "Bronx"
+ },
+ "geosearch|153 Sherman Avenue, Manhattan, NY 10034": {
+  "lng": -73.92298,
+  "lat": 40.8643,
+  "label": "153 SHERMAN AVENUE, New York, NY, USA",
+  "postalcode": "10034",
+  "borough": "Manhattan"
+ },
+ "geosearch|158 RICHMOND STREET, Brooklyn, NY 11208": {
+  "lng": -73.877247,
+  "lat": 40.68341,
+  "label": "158 RICHMOND STREET, Brooklyn, NY, USA",
+  "postalcode": "11208",
+  "borough": "Brooklyn"
+ },
+ "geosearch|158-20 101st St, Queens, NY 11414": {
+  "lng": -73.833086,
+  "lat": 40.661348,
+  "label": "158-20 101 STREET, Howard Beach, NY, USA",
+  "postalcode": "11414",
+  "borough": "Queens"
+ },
+ "geosearch|159-26 Jamaica Avenue, Queens, NY": {
+  "lng": -73.799373,
+  "lat": 40.703119,
+  "label": "159-26 JAMAICA AVENUE, Jamaica, NY, USA",
+  "postalcode": "11432",
+  "borough": "Queens"
+ },
+ "geosearch|1600 PARK PLACE, Brooklyn, NY 11233": {
+  "lng": -73.924212,
+  "lat": 40.671812,
+  "label": "1600 PARK PLACE, Brooklyn, NY, USA",
+  "postalcode": "11233",
+  "borough": "Brooklyn"
+ },
+ "geosearch|1617 PARKVIEW AVE, Bronx, NY 10461": {
+  "lng": -73.827253,
+  "lat": 40.845393,
+  "label": "1617 PARKVIEW AVENUE, Bronx, NY, USA",
+  "postalcode": "10461",
+  "borough": "Bronx"
+ },
+ "geosearch|165 North 5 Street, Brooklyn, NY 11211": {
+  "lng": -73.95809,
+  "lat": 40.716447,
+  "label": "165 NORTH 5 STREET, Brooklyn, NY, USA",
+  "postalcode": "11211",
+  "borough": "Brooklyn"
+ },
+ "geosearch|1695 SEWARD AVENUE, Bronx, NY 10473": {
+  "lng": -73.868429,
+  "lat": 40.818872,
+  "label": "1695 SEWARD AVENUE, Bronx, NY, USA",
+  "postalcode": "10473",
+  "borough": "Bronx"
+ },
+ "geosearch|1744 WILLIAMSBRIDGE RD., Bronx, NY 10461": {
+  "lng": -73.85074,
+  "lat": 40.850156,
+  "label": "1744 WILLIAMSBRIDGE ROAD, Bronx, NY, USA",
+  "postalcode": "10461",
+  "borough": "Bronx"
+ },
+ "geosearch|175 West 134 Street, Manhattan, NY 10030": {
+  "lng": -73.942687,
+  "lat": 40.814414,
+  "label": "175 WEST 134 STREET, New York, NY, USA",
+  "postalcode": "10030",
+  "borough": "Manhattan"
+ },
+ "geosearch|1776 MANSION STREET, Bronx, NY 10460": {
+  "lng": -73.86849,
+  "lat": 40.837768,
+  "label": "1776 MANSION STREET, Bronx, NY, USA",
+  "postalcode": "10460",
+  "borough": "Bronx"
+ },
+ "geosearch|1825 PROSPECT AVENUE, Bronx, NY 10457": {
+  "lng": -73.890962,
+  "lat": 40.842606,
+  "label": "1825 PROSPECT AVENUE, Bronx, NY, USA",
+  "postalcode": "10457",
+  "borough": "Bronx"
+ },
+ "geosearch|1833 Nostrand Avenue, Brooklyn, NY 11226": {
+  "lng": -73.948219,
+  "lat": 40.641209,
+  "label": "1833 NOSTRAND AVENUE, Brooklyn, NY, USA",
+  "postalcode": "11226",
+  "borough": "Brooklyn"
+ },
+ "geosearch|1886 NOSTRAND AVENUE, Brooklyn, NY 11226": {
+  "lng": -73.948796,
+  "lat": 40.639504,
+  "label": "1886 NOSTRAND AVENUE, Brooklyn, NY, USA",
+  "postalcode": "11226",
+  "borough": "Brooklyn"
+ },
+ "geosearch|190 BEACH 110 STREET, Queens, NY 11694": {
+  "lng": -73.83135,
+  "lat": 40.580689,
+  "label": "190 BEACH 110 STREET, Rockaway Park, NY, USA",
+  "postalcode": "11694",
+  "borough": "Queens"
+ },
+ "geosearch|1909 Daly Ave, Bronx, NY 10460": {
+  "lng": -73.884888,
+  "lat": 40.840662,
+  "label": "1909 DALY AVENUE, Bronx, NY, USA",
+  "postalcode": "10460",
+  "borough": "Bronx"
+ },
+ "geosearch|1910 Arthur Avenue, Bronx, NY 10457": {
+  "lng": -73.893016,
+  "lat": 40.845459,
+  "label": "1910 ARTHUR AVENUE, Bronx, NY, USA",
+  "postalcode": "10457",
+  "borough": "Bronx"
+ },
+ "geosearch|1952 Benedict Avenue, Bronx, NY 10462": {
+  "lng": -73.858808,
+  "lat": 40.834002,
+  "label": "1952 BENEDICT AVENUE, Bronx, NY, USA",
+  "postalcode": "10462",
+  "borough": "Bronx"
+ },
+ "geosearch|2 ABERDEEN STREET, Brooklyn, NY 11207": {
+  "lng": -73.906557,
+  "lat": 40.681106,
+  "label": "2 ABERDEEN STREET, Brooklyn, NY, USA",
+  "postalcode": "11207",
+  "borough": "Brooklyn"
+ },
+ "geosearch|2-12 ABERDEEN STREET, Brooklyn, NY 11207": {
+  "lng": -73.906557,
+  "lat": 40.681106,
+  "label": "2 ABERDEEN STREET, Brooklyn, NY, USA",
+  "postalcode": "11207",
+  "borough": "Brooklyn"
+ },
+ "geosearch|20 BRUCKNER BLVD, Bronx, NY 10454": {
+  "lng": -73.929072,
+  "lat": 40.80704,
+  "label": "20 BRUCKNER BOULEVARD, Bronx, NY, USA",
+  "postalcode": "10454",
+  "borough": "Bronx"
+ },
+ "geosearch|2005 Madison Avenue, Manhattan, NY 10035": {
+  "lng": -73.938612,
+  "lat": 40.806987,
+  "label": "2005 MADISON AVENUE, New York, NY, USA",
+  "postalcode": "10035",
+  "borough": "Manhattan"
+ },
+ "geosearch|201 EAST 144TH STREET, Bronx, NY 10451": {
+  "lng": -73.925684,
+  "lat": 40.816397,
+  "label": "201 EAST 144 STREET, Bronx, NY, USA",
+  "postalcode": "10451",
+  "borough": "Bronx"
+ },
+ "geosearch|201 EAST 144TH STREET, Manhattan, NY 10451": {
+  "lng": -73.925684,
+  "lat": 40.816397,
+  "label": "201 EAST 144 STREET, Bronx, NY, USA",
+  "postalcode": "10451",
+  "borough": "Bronx"
+ },
+ "geosearch|2017 1St Avenue, Manhattan, NY 10029": {
+  "lng": -73.9418,
+  "lat": 40.78842,
+  "label": "2017 1 AVENUE, New York, NY, USA",
+  "postalcode": "10029",
+  "borough": "Manhattan"
+ },
+ "geosearch|2041 Madison Avenue, Manhattan, NY 10035": {
+  "lng": -73.93833,
+  "lat": 40.80842,
+  "label": "2041 MADISON AVENUE, New York, NY, USA",
+  "postalcode": "10035",
+  "borough": "Manhattan"
+ },
+ "geosearch|205 Rockaway Parkway, Brooklyn, NY 11212": {
+  "lng": -73.920714,
+  "lat": 40.662062,
+  "label": "205 ROCKAWAY PARKWAY, Brooklyn, NY, USA",
+  "postalcode": "11212",
+  "borough": "Brooklyn"
+ },
+ "geosearch|2116 Adam Clayton Powell Jr. Blvd, Manhattan, NY 10027": {
+  "lng": -73.948412,
+  "lat": 40.809644,
+  "label": "2116 ADAM CLAYTON POWELL JR BOULEVARD, New York, NY, USA",
+  "postalcode": "10027",
+  "borough": "Manhattan"
+ },
+ "geosearch|212 West 120 Street, Manhattan, NY 10027": {
+  "lng": -73.951797,
+  "lat": 40.805911,
+  "label": "212 WEST 120 STREET, New York, NY, USA",
+  "postalcode": "10027",
+  "borough": "Manhattan"
+ },
+ "geosearch|213 OSBORN STREET, Brooklyn, NY 11212": {
+  "lng": -73.907721,
+  "lat": 40.66695,
+  "label": "213 OSBORN STREET, Brooklyn, NY, USA",
+  "postalcode": "11212",
+  "borough": "Brooklyn"
+ },
+ "geosearch|2141 SEWARD AVENUE, Bronx, NY 10473": {
+  "lng": -73.849626,
+  "lat": 40.82124,
+  "label": "2141 SEWARD AVENUE, Bronx, NY, USA",
+  "postalcode": "10473",
+  "borough": "Bronx"
+ },
+ "geosearch|215 West 114 Street, Manhattan, NY 10026": {
+  "lng": -73.954302,
+  "lat": 40.802623,
+  "label": "215 WEST 114 STREET, New York, NY, USA",
+  "postalcode": "10026",
+  "borough": "Manhattan"
+ },
+ "geosearch|2169 Blackrock Avenue, Bronx, NY 10472": {
+  "lng": -73.850984,
+  "lat": 40.829482,
+  "label": "2169 BLACKROCK AVENUE, Bronx, NY, USA",
+  "postalcode": "10472",
+  "borough": "Bronx"
+ },
+ "geosearch|217 N 10th Street, Brooklyn, NY": {
+  "lng": -73.96116,
+  "lat": 40.72321,
+  "label": "5 NORTH 10 STREET, Brooklyn, NY, USA",
+  "postalcode": "11249",
+  "borough": "Brooklyn"
+ },
+ "geosearch|217 N 10th Street, Brooklyn, NY 11211": {
+  "lng": -73.95565,
+  "lat": 40.719465,
+  "label": "163 NORTH 10 STREET, Brooklyn, NY, USA",
+  "postalcode": "11211",
+  "borough": "Brooklyn"
+ },
+ "geosearch|217 North 10th Street, Brooklyn, NY": {
+  "lng": -73.96116,
+  "lat": 40.72321,
+  "label": "5 NORTH 10 STREET, Brooklyn, NY, USA",
+  "postalcode": "11249",
+  "borough": "Brooklyn"
+ },
+ "geosearch|217 North 10th Street, Brooklyn, NY 11211": {
+  "lng": -73.95565,
+  "lat": 40.719465,
+  "label": "163 NORTH 10 STREET, Brooklyn, NY, USA",
+  "postalcode": "11211",
+  "borough": "Brooklyn"
+ },
+ "geosearch|218 West 147Th St, Manhattan, NY 10039": {
+  "lng": -73.93973,
+  "lat": 40.823208,
+  "label": "218 WEST 147 STREET, New York, NY, USA",
+  "postalcode": "10039",
+  "borough": "Manhattan"
+ },
+ "geosearch|222 ALEXANDER AVE, Bronx, NY 10454": {
+  "lng": -73.925181,
+  "lat": 40.809405,
+  "label": "222 ALEXANDER AVENUE, Bronx, NY, USA",
+  "postalcode": "10454",
+  "borough": "Bronx"
+ },
+ "geosearch|222 West 134 Street, Manhattan, NY 10030": {
+  "lng": -73.945474,
+  "lat": 40.814955,
+  "label": "222 WEST 134 STREET, New York, NY, USA",
+  "postalcode": "10030",
+  "borough": "Manhattan"
+ },
+ "geosearch|2245 Richmond Avenue, Staten Island, NY 10314": {
+  "lng": -74.16252,
+  "lat": 40.592276,
+  "label": "2245 RICHMOND AVENUE, Staten Island, NY, USA",
+  "postalcode": "10314",
+  "borough": "Staten Island"
+ },
+ "geosearch|225 PATCHEN AVENUE, Brooklyn, NY 11233": {
+  "lng": -73.925846,
+  "lat": 40.683447,
+  "label": "225 PATCHEN AVENUE, Brooklyn, NY, USA",
+  "postalcode": "11233",
+  "borough": "Brooklyn"
+ },
+ "geosearch|2286 Cropsey Ave, Brooklyn, NY 11214": {
+  "lng": -73.997111,
+  "lat": 40.595289,
+  "label": "2286 CROPSEY AVENUE, Brooklyn, NY, USA",
+  "postalcode": "11214",
+  "borough": "Brooklyn"
+ },
+ "geosearch|23-40 Astoria Boulevard, Queens, NY 11102": {
+  "lng": -73.923247,
+  "lat": 40.771212,
+  "label": "23-40 ASTORIA BOULEVARD, Astoria, NY, USA",
+  "postalcode": "11102",
+  "borough": "Queens"
+ },
+ "geosearch|230 East 123Rd Street, Manhattan, NY 10035": {
+  "lng": -73.93529,
+  "lat": 40.80154,
+  "label": "230 EAST 123 STREET, New York, NY, USA",
+  "postalcode": "10035",
+  "borough": "Manhattan"
+ },
+ "geosearch|2336 Andrews Avenue North, Bronx, NY 10468": {
+  "lng": -73.906595,
+  "lat": 40.861907,
+  "label": "2336 ANDREWS AVENUE NORTH, Bronx, NY, USA",
+  "postalcode": "10468",
+  "borough": "Bronx"
+ },
+ "geosearch|2390 PITKIN AVENUE, Brooklyn, NY 11208": {
+  "lng": -73.88389,
+  "lat": 40.67341,
+  "label": "2390 PITKIN AVENUE, Brooklyn, NY, USA",
+  "postalcode": "11208",
+  "borough": "Brooklyn"
+ },
+ "geosearch|240 Bleeker Street, Manhattan, NY 10014": {
+  "lng": -74.002906,
+  "lat": 40.730578,
+  "label": "240 BLEEKER STREET, New York, NY, USA",
+  "postalcode": "10014",
+  "borough": "Manhattan"
+ },
+ "geosearch|2403 Third Ave, Bronx, NY 10451": {
+  "lng": -73.931543,
+  "lat": 40.80845,
+  "label": "2403 THIRD AVENUE, Bronx, NY, USA",
+  "postalcode": "10451",
+  "borough": "Bronx"
+ },
+ "geosearch|242 Hoyt Street, Brooklyn, NY 11217": {
+  "lng": -73.990494,
+  "lat": 40.683009,
+  "label": "242 HOYT STREET, Brooklyn, NY, USA",
+  "postalcode": "11217",
+  "borough": "Brooklyn"
+ },
+ "geosearch|250 JAY STREET, Brooklyn, NY 11201": {
+  "lng": -73.987336,
+  "lat": 40.697112,
+  "label": "250 JAY STREET, Brooklyn, NY, USA",
+  "postalcode": "11201",
+  "borough": "Brooklyn"
+ },
+ "geosearch|260 Shepherd Avenue, Brooklyn, NY 11208": {
+  "lng": -73.882048,
+  "lat": 40.678193,
+  "label": "260 SHEPHERD AVENUE, Brooklyn, NY, USA",
+  "postalcode": "11208",
+  "borough": "Brooklyn"
+ },
+ "geosearch|263 E 203rd Street, Bronx, NY 10458": {
+  "lng": -73.88432,
+  "lat": 40.87366,
+  "label": "263 EAST 203 STREET, Bronx, NY, USA",
+  "postalcode": "10458",
+  "borough": "Bronx"
+ },
+ "geosearch|268 E. 207th Street, Bronx, NY 10467": {
+  "lng": -73.877524,
+  "lat": 40.87536,
+  "label": "268 EAST 207 STREET, Bronx, NY, USA",
+  "postalcode": "10467",
+  "borough": "Bronx"
+ },
+ "geosearch|270 EAST 167 STREET, Bronx, NY 10456": {
+  "lng": -73.914268,
+  "lat": 40.8324,
+  "label": "270 EAST 167 STREET, Bronx, NY, USA",
+  "postalcode": "10456",
+  "borough": "Bronx"
+ },
+ "geosearch|272 Macon Street, Brooklyn, NY 11216": {
+  "lng": -73.939677,
+  "lat": 40.681842,
+  "label": "272 MACON STREET, Brooklyn, NY, USA",
+  "postalcode": "11216",
+  "borough": "Brooklyn"
+ },
+ "geosearch|2720 JEROME AVENUE, Bronx, NY 10468": {
+  "lng": -73.89609,
+  "lat": 40.86856,
+  "label": "2720 JEROME AVENUE, Bronx, NY, USA",
+  "postalcode": "10468",
+  "borough": "Bronx"
+ },
+ "geosearch|2840 Atlantic Ave, Brooklyn, NY 11207": {
+  "lng": -73.88893,
+  "lat": 40.67641,
+  "label": "2840 ATLANTIC AVENUE, Brooklyn, NY, USA",
+  "postalcode": "11207",
+  "borough": "Brooklyn"
+ },
+ "geosearch|285 Clove Road, Staten Island, NY 10310": {
+  "lng": -74.125389,
+  "lat": 40.633104,
+  "label": "285 CLOVE ROAD, Staten Island, NY, USA",
+  "postalcode": "10310",
+  "borough": "Staten Island"
+ },
+ "geosearch|294 AVENUE T, Brooklyn, NY 11223": {
+  "lng": -73.974267,
+  "lat": 40.598895,
+  "label": "294 AVENUE T, Brooklyn, NY, USA",
+  "postalcode": "11223",
+  "borough": "Brooklyn"
+ },
+ "geosearch|295 Front Street, Brooklyn, NY 11201": {
+  "lng": -73.981485,
+  "lat": 40.702466,
+  "label": "295 FRONT STREET, Brooklyn, NY, USA",
+  "postalcode": "11201",
+  "borough": "Brooklyn"
+ },
+ "geosearch|3000 AVENUE X, Brooklyn, NY 11235": {
+  "lng": -73.936676,
+  "lat": 40.593525,
+  "label": "3000 AVENUE X, Brooklyn, NY, USA",
+  "postalcode": "11235",
+  "borough": "Brooklyn"
+ },
+ "geosearch|301 VERMONT STREET, Brooklyn, NY 11207": {
+  "lng": -73.893329,
+  "lat": 40.671946,
+  "label": "301 VERMONT STREET, Brooklyn, NY, USA",
+  "postalcode": "11207",
+  "borough": "Brooklyn"
+ },
+ "geosearch|31-20 37th Street, Queens, NY 11103": {
+  "lng": -73.919478,
+  "lat": 40.761601,
+  "label": "31-20 37 STREET, Astoria, NY, USA",
+  "postalcode": "11103",
+  "borough": "Queens"
+ },
+ "geosearch|3109 NEWKIRK AVENUE, Brooklyn, NY 11226": {
+  "lng": -73.946916,
+  "lat": 40.640381,
+  "label": "3109 NEWKIRK AVENUE, Brooklyn, NY, USA",
+  "postalcode": "11226",
+  "borough": "Brooklyn"
+ },
+ "geosearch|316 East 165 Street, Bronx, NY 10456": {
+  "lng": -73.914422,
+  "lat": 40.828431,
+  "label": "316 EAST 165 STREET, Bronx, NY, USA",
+  "postalcode": "10456",
+  "borough": "Bronx"
+ },
+ "geosearch|34-12 10TH STREET, Queens, NY 11106": {
+  "lng": -73.939137,
+  "lat": 40.764552,
+  "label": "34-12 10 STREET, Long Island City, NY, USA",
+  "postalcode": "11106",
+  "borough": "Queens"
+ },
+ "geosearch|341 39th Street, Brooklyn, NY 11232": {
+  "lng": -74.00701,
+  "lat": 40.653426,
+  "label": "341 39 STREET, Brooklyn, NY, USA",
+  "postalcode": "11232",
+  "borough": "Brooklyn"
+ },
+ "geosearch|35 East 125Th Street, Manhattan, NY 10035": {
+  "lng": -73.941014,
+  "lat": 40.806211,
+  "label": "35 EAST 125 STREET, New York, NY, USA",
+  "postalcode": "10035",
+  "borough": "Manhattan"
+ },
+ "geosearch|35 Starr Street, Brooklyn, NY 11221": {
+  "lng": -73.927691,
+  "lat": 40.701238,
+  "label": "35 STARR STREET, Brooklyn, NY, USA",
+  "postalcode": "11221",
+  "borough": "Brooklyn"
+ },
+ "geosearch|35 West 124Th Street, Manhattan, NY 10027": {
+  "lng": -73.943921,
+  "lat": 40.806801,
+  "label": "35 WEST 124 STREET, New York, NY, USA",
+  "postalcode": "10027",
+  "borough": "Manhattan"
+ },
+ "geosearch|3515 BAINBRIDGE AVENUE, Bronx, NY 10467": {
+  "lng": -73.878609,
+  "lat": 40.881716,
+  "label": "3515 BAINBRIDGE AVENUE, Bronx, NY, USA",
+  "postalcode": "10467",
+  "borough": "Bronx"
+ },
+ "geosearch|356 East 139th Street, Bronx, NY 10454": {
+  "lng": -73.92362,
+  "lat": 40.81005,
+  "label": "356 EAST 139 STREET, Bronx, NY, USA",
+  "postalcode": "10454",
+  "borough": "Bronx"
+ },
+ "geosearch|36-49 11TH STREET, Queens, NY": {
+  "lng": -73.940406,
+  "lat": 40.759892,
+  "label": "36-49 11 STREET, Long Island City, NY, USA",
+  "postalcode": "11106",
+  "borough": "Queens"
+ },
+ "geosearch|36-49 11TH STREET, Queens, NY 11101": {
+  "lng": -73.947494,
+  "lat": 40.752015,
+  "label": "42-49 11 STREET, Long Island City, NY, USA",
+  "postalcode": "11101",
+  "borough": "Queens"
+ },
+ "geosearch|37 Park Terrace East, Manhattan, NY 10034": {
+  "lng": -73.917338,
+  "lat": 40.87013,
+  "label": "37 PARK TERRACE EAST, New York, NY, USA",
+  "postalcode": "10034",
+  "borough": "Manhattan"
+ },
+ "geosearch|37-15 13 STREET, Queens, NY 11101": {
+  "lng": -73.939112,
+  "lat": 40.758719,
+  "label": "37-15 13 STREET, Long Island City, NY, USA",
+  "postalcode": "11101",
+  "borough": "Queens"
+ },
+ "geosearch|3700 INDEPENDENCE AVENUE, Bronx, NY 10463": {
+  "lng": -73.912675,
+  "lat": 40.88793,
+  "label": "3700 INDEPENDENCE AVENUE, Bronx, NY, USA",
+  "postalcode": "10463",
+  "borough": "Bronx"
+ },
+ "geosearch|38-27 30TH STREET, Queens, NY 11101": {
+  "lng": -73.933103,
+  "lat": 40.753456,
+  "label": "38-27 30 STREET, Long Island City, NY, USA",
+  "postalcode": "11101",
+  "borough": "Queens"
+ },
+ "geosearch|3840 Corlear Avenue, Bronx, NY 10463": {
+  "lng": -73.900717,
+  "lat": 40.886103,
+  "label": "3840 CORLEAR AVENUE, Bronx, NY, USA",
+  "postalcode": "10463",
+  "borough": "Bronx"
+ },
+ "geosearch|3893 WALDO AVENUE, Bronx, NY 10463": {
+  "lng": -73.90359,
+  "lat": 40.88948,
+  "label": "3893 WALDO AVENUE, Bronx, NY, USA",
+  "postalcode": "10463",
+  "borough": "Bronx"
+ },
+ "geosearch|39 Truxton Street, Brooklyn, NY 11233": {
+  "lng": -73.90777,
+  "lat": 40.67865,
+  "label": "39 TRUXTON STREET, Brooklyn, NY, USA",
+  "postalcode": "11233",
+  "borough": "Brooklyn"
+ },
+ "geosearch|39-27 28th Street, Queens, NY 11101": {
+  "lng": -73.935706,
+  "lat": 40.753121,
+  "label": "39-27 28 STREET, Long Island City, NY, USA",
+  "postalcode": "11101",
+  "borough": "Queens"
+ },
+ "geosearch|3901 White Plains Rd, Bronx, NY 10466": {
+  "lng": -73.861894,
+  "lat": 40.886062,
+  "label": "3901 WHITE PLAINS ROAD, Bronx, NY, USA",
+  "postalcode": "10466",
+  "borough": "Bronx"
+ },
+ "geosearch|400 W 219Th Street, Manhattan, NY 10034": {
+  "lng": -73.9122,
+  "lat": 40.87083,
+  "label": "400 WEST 219 STREET, New York, NY, USA",
+  "postalcode": "10034",
+  "borough": "Manhattan"
+ },
+ "geosearch|403 Concord Avenue, Bronx, NY 10454": {
+  "lng": -73.909799,
+  "lat": 40.809316,
+  "label": "403 CONCORD AVENUE, Bronx, NY, USA",
+  "postalcode": "10454",
+  "borough": "Bronx"
+ },
+ "geosearch|425 Westchester Avenue, Bronx, NY 10455": {
+  "lng": -73.91566,
+  "lat": 40.81676,
+  "label": "425 WESTCHESTER AVENUE, Bronx, NY, USA",
+  "postalcode": "10455",
+  "borough": "Bronx"
+ },
+ "geosearch|4280 Broadway, Manhattan, NY 10033": {
+  "lng": -73.934945,
+  "lat": 40.850977,
+  "label": "4280 BROADWAY, New York, NY, USA",
+  "postalcode": "10033",
+  "borough": "Manhattan"
+ },
+ "geosearch|4300 Murdock Avenue, Bronx, NY 10466": {
+  "lng": -73.842252,
+  "lat": 40.89868,
+  "label": "4300 MURDOCK AVENUE, Bronx, NY, USA",
+  "postalcode": "10466",
+  "borough": "Bronx"
+ },
+ "geosearch|433 East 100 Street, Manhattan, NY 10029": {
+  "lng": -73.940978,
+  "lat": 40.785635,
+  "label": "433 EAST 100 STREET, New York, NY, USA",
+  "postalcode": "10029",
+  "borough": "Manhattan"
+ },
+ "geosearch|433 West 204 Street, Manhattan, NY 10034": {
+  "lng": -73.919261,
+  "lat": 40.862348,
+  "label": "433 WEST 204 STREET, New York, NY, USA",
+  "postalcode": "10034",
+  "borough": "Manhattan"
+ },
+ "geosearch|439 East 115 Street, Manhattan, NY 10029": {
+  "lng": -73.93437,
+  "lat": 40.794927,
+  "label": "439 EAST 115 STREET, New York, NY, USA",
+  "postalcode": "10029",
+  "borough": "Manhattan"
+ },
+ "geosearch|447 Wales Avenue, Bronx, NY 10455": {
+  "lng": -73.90842,
+  "lat": 40.81043,
+  "label": "447 WALES AVENUE, Bronx, NY, USA",
+  "postalcode": "10455",
+  "borough": "Bronx"
+ },
+ "geosearch|45-20 83rd street, Queens, NY 11373": {
+  "lng": -73.882085,
+  "lat": 40.74086,
+  "label": "45-20 83 STREET, Elmhurst, NY, USA",
+  "postalcode": "11373",
+  "borough": "Queens"
+ },
+ "geosearch|461 West 131 Street, Manhattan, NY 10027": {
+  "lng": -73.95338,
+  "lat": 40.816419,
+  "label": "461 WEST 131 STREET, New York, NY, USA",
+  "postalcode": "10027",
+  "borough": "Manhattan"
+ },
+ "geosearch|465 Villa Avenue, Staten Island, NY 10302": {
+  "lng": -74.14299,
+  "lat": 40.628936,
+  "label": "465 VILLA AVENUE, Staten Island, NY, USA",
+  "postalcode": "10302",
+  "borough": "Staten Island"
+ },
+ "geosearch|4650 Broadway Avenue, Manhattan, NY 10040": {
+  "lng": -73.92939,
+  "lat": 40.86277,
+  "label": "4650 BROADWAY, New York, NY, USA",
+  "postalcode": "10040",
+  "borough": "Manhattan"
+ },
+ "geosearch|475 53 Street, Brooklyn, NY 11220": {
+  "lng": -74.012144,
+  "lat": 40.643759,
+  "label": "475 53 STREET, Brooklyn, NY, USA",
+  "postalcode": "11220",
+  "borough": "Brooklyn"
+ },
+ "geosearch|499 E. 175th Street, Bronx, NY 10457": {
+  "lng": -73.898465,
+  "lat": 40.844737,
+  "label": "499 EAST 175 STREET, Bronx, NY, USA",
+  "postalcode": "10457",
+  "borough": "Bronx"
+ },
+ "geosearch|50 NAVY STREET, Brooklyn, NY 11201": {
+  "lng": -73.981047,
+  "lat": 40.697858,
+  "label": "50 NAVY STREET, Brooklyn, NY, USA",
+  "postalcode": "11201",
+  "borough": "Brooklyn"
+ },
+ "geosearch|500 COURTLANDT AVE, Bronx, NY 10451": {
+  "lng": -73.919906,
+  "lat": 40.815311,
+  "label": "500 COURTLANDT AVENUE, Bronx, NY, USA",
+  "postalcode": "10451",
+  "borough": "Bronx"
+ },
+ "geosearch|500 MACON STREET, Brooklyn, NY 11233": {
+  "lng": -73.929969,
+  "lat": 40.683056,
+  "label": "500 MACON STREET, Brooklyn, NY, USA",
+  "postalcode": "11233",
+  "borough": "Brooklyn"
+ },
+ "geosearch|501 Gerard Avenue, Bronx, NY 10451": {
+  "lng": -73.929667,
+  "lat": 40.818918,
+  "label": "501 GERARD AVENUE, Bronx, NY, USA",
+  "postalcode": "10451",
+  "borough": "Bronx"
+ },
+ "geosearch|501 Gerard Avenue, Manhattan, NY 10451": {
+  "lng": -73.929667,
+  "lat": 40.818918,
+  "label": "501 GERARD AVENUE, Bronx, NY, USA",
+  "postalcode": "10451",
+  "borough": "Bronx"
+ },
+ "geosearch|509 West 129 Street, Bronx, NY 10027": {
+  "lng": -73.955938,
+  "lat": 40.81573,
+  "label": "509 WEST 129 STREET, New York, NY, USA",
+  "postalcode": "10027",
+  "borough": "Manhattan"
+ },
+ "geosearch|51-35 Reeder Street, Queens, NY 11373": {
+  "lng": -73.877854,
+  "lat": 40.737415,
+  "label": "51-35 REEDER STREET, Elmhurst, NY, USA",
+  "postalcode": "11373",
+  "borough": "Queens"
+ },
+ "geosearch|524 Courtlandt Avenue, Bronx, NY 10451": {
+  "lng": -73.919431,
+  "lat": 40.816153,
+  "label": "524 COURTLANDT AVENUE, Bronx, NY, USA",
+  "postalcode": "10451",
+  "borough": "Bronx"
+ },
+ "geosearch|528 West 162Th Street, Manhattan, NY 10032": {
+  "lng": -73.93864,
+  "lat": 40.839686,
+  "label": "528 WEST 167 STREET, New York, NY, USA",
+  "postalcode": "10032",
+  "borough": "Manhattan"
+ },
+ "geosearch|532 West 215Th Streeet, Manhattan, NY 10034": {
+  "lng": -73.917644,
+  "lat": 40.87038,
+  "label": "532 WEST 215 STREET, New York, NY, USA",
+  "postalcode": "10034",
+  "borough": "Manhattan"
+ },
+ "geosearch|532 West 215Th Street, Bronx, NY 10034": {
+  "lng": -73.917644,
+  "lat": 40.87038,
+  "label": "532 WEST 215 STREET, New York, NY, USA",
+  "postalcode": "10034",
+  "borough": "Manhattan"
+ },
+ "geosearch|533 W. 121St Street, Manhattan, NY 10027": {
+  "lng": -73.960756,
+  "lat": 40.811106,
+  "label": "533 WEST 121 STREET, New York, NY, USA",
+  "postalcode": "10027",
+  "borough": "Manhattan"
+ },
+ "geosearch|549 Audubon Avenue, Manhattan, NY 10040": {
+  "lng": -73.926171,
+  "lat": 40.855571,
+  "label": "549 AUDUBON AVENUE, New York, NY, USA",
+  "postalcode": "10040",
+  "borough": "Manhattan"
+ },
+ "geosearch|55-30 Junction Boulevard, Queens, NY 11373": {
+  "lng": -73.866405,
+  "lat": 40.737341,
+  "label": "55-30 JUNCTION BOULEVARD, Elmhurst, NY, USA",
+  "postalcode": "11373",
+  "borough": "Queens"
+ },
+ "geosearch|584 DRIGGS AVENUE, Brooklyn, NY 11211": {
+  "lng": -73.95751,
+  "lat": 40.716353,
+  "label": "584 DRIGGS AVENUE, Brooklyn, NY, USA",
+  "postalcode": "11211",
+  "borough": "Brooklyn"
+ },
+ "geosearch|586 West 177 Street, Manhattan, NY 10033": {
+  "lng": -73.935144,
+  "lat": 40.846338,
+  "label": "586 WEST 177 STREET, New York, NY, USA",
+  "postalcode": "10033",
+  "borough": "Manhattan"
+ },
+ "geosearch|5959 BROADWAY, Bronx, NY 10463": {
+  "lng": -73.898991,
+  "lat": 40.889242,
+  "label": "5959 B'WAY, Bronx, NY, USA",
+  "postalcode": "10463",
+  "borough": "Bronx"
+ },
+ "geosearch|600 Central Avenue, Brooklyn, NY 11207": {
+  "lng": -73.909318,
+  "lat": 40.688703,
+  "label": "600 CENTRAL AVENUE, Brooklyn, NY, USA",
+  "postalcode": "11207",
+  "borough": "Brooklyn"
+ },
+ "geosearch|600 East 156th Street, Bronx, NY 10455": {
+  "lng": -73.909368,
+  "lat": 40.818669,
+  "label": "600 EAST 156 STREET, Bronx, NY, USA",
+  "postalcode": "10455",
+  "borough": "Bronx"
+ },
+ "geosearch|604 East 139th Street, Bronx, NY 10454": {
+  "lng": -73.915377,
+  "lat": 40.806569,
+  "label": "604 EAST 139 STREET, Bronx, NY, USA",
+  "postalcode": "10454",
+  "borough": "Bronx"
+ },
+ "geosearch|625 West 133 Street, Manhattan, NY 10027": {
+  "lng": -73.956824,
+  "lat": 40.819793,
+  "label": "625 WEST 133 STREET, New York, NY, USA",
+  "postalcode": "10027",
+  "borough": "Manhattan"
+ },
+ "geosearch|629 Courtlandt Avenue, Bronx, NY 10451": {
+  "lng": -73.918909,
+  "lat": 40.818518,
+  "label": "629 COURTLANDT AVENUE, Bronx, NY, USA",
+  "postalcode": "10451",
+  "borough": "Bronx"
+ },
+ "geosearch|63-57 Fresh Pond Road, Brooklyn, NY 11385": {
+  "lng": -73.899237,
+  "lat": 40.710826,
+  "label": "63-57 FRESH POND ROAD, Ridgewood, NY, USA",
+  "postalcode": "11385",
+  "borough": "Queens"
+ },
+ "geosearch|650 Grand Concourse, Bronx, NY 10451": {
+  "lng": -73.925489,
+  "lat": 40.820506,
+  "label": "650 GRAND CONCOURSE, Bronx, NY, USA",
+  "postalcode": "10451",
+  "borough": "Bronx"
+ },
+ "geosearch|6565 FLATLANDS AVENUE, Brooklyn, NY 11236": {
+  "lng": -73.917477,
+  "lat": 40.633743,
+  "label": "6565 FLATLANDS AVENUE, Brooklyn, NY, USA",
+  "postalcode": "11236",
+  "borough": "Brooklyn"
+ },
+ "geosearch|671 Prospect Ave, Bronx, NY 10455": {
+  "lng": -73.903616,
+  "lat": 40.815681,
+  "label": "671 PROSPECT AVENUE, Bronx, NY, USA",
+  "postalcode": "10455",
+  "borough": "Bronx"
+ },
+ "geosearch|69-26 Cooper Ave, Queens, NY 11385": {
+  "lng": -73.881346,
+  "lat": 40.701031,
+  "label": "69-26 COOPER AVENUE, Fresh Pond, NY, USA",
+  "postalcode": "11385",
+  "borough": "Queens"
+ },
+ "geosearch|70 East 112Th Street, Manhattan, NY 10029": {
+  "lng": -73.94606,
+  "lat": 40.79677,
+  "label": "70 EAST 112 STREET, New York, NY, USA",
+  "postalcode": "10029",
+  "borough": "Manhattan"
+ },
+ "geosearch|71 Arden Street, Manhattan, NY 10040": {
+  "lng": -73.927973,
+  "lat": 40.863714,
+  "label": "71 ARDEN STREET, New York, NY, USA",
+  "postalcode": "10040",
+  "borough": "Manhattan"
+ },
+ "geosearch|71 Convent Ave, Manhattan, NY 10027": {
+  "lng": -73.95264,
+  "lat": 40.815752,
+  "label": "71 CONVENT AVENUE, New York, NY, USA",
+  "postalcode": "10027",
+  "borough": "Manhattan"
+ },
+ "geosearch|71-111 Convent Ave, Manhattan, NY 10027": {
+  "lng": -73.951915,
+  "lat": 40.816388,
+  "label": "111 CONVENT AVENUE, New York, NY, USA",
+  "postalcode": "10027",
+  "borough": "Manhattan"
+ },
+ "geosearch|72 VERONICA PLACE, Brooklyn, NY 11226": {
+  "lng": -73.953816,
+  "lat": 40.648366,
+  "label": "72 VERONICA PLACE, Brooklyn, NY, USA",
+  "postalcode": "11226",
+  "borough": "Brooklyn"
+ },
+ "geosearch|720 LIVONIA AVENUE, Brooklyn, NY 11207": {
+  "lng": -73.8907,
+  "lat": 40.665006,
+  "label": "720 LIVONIA AVENUE, Brooklyn, NY, USA",
+  "postalcode": "11207",
+  "borough": "Brooklyn"
+ },
+ "geosearch|730 CONCOURSE VILLAGE WEST, Bronx, NY 10451": {
+  "lng": -73.923289,
+  "lat": 40.822292,
+  "label": "730 CONCOURSE VILLAGE WEST, Bronx, NY, USA",
+  "postalcode": "10451",
+  "borough": "Bronx"
+ },
+ "geosearch|74 West 124 Street, Manhattan, NY 10027": {
+  "lng": -73.945604,
+  "lat": 40.806696,
+  "label": "74 WEST 124 STREET, New York, NY, USA",
+  "postalcode": "10027",
+  "borough": "Manhattan"
+ },
+ "geosearch|744 EAST 87 STREET, Brooklyn, NY 11236": {
+  "lng": -73.908942,
+  "lat": 40.639214,
+  "label": "744 EAST 87 STREET, Brooklyn, NY, USA",
+  "postalcode": "11236",
+  "borough": "Brooklyn"
+ },
+ "geosearch|755 Co-Op City Boulevard, Bronx, NY 10475": {
+  "lng": -73.826964,
+  "lat": 40.880221,
+  "label": "755 CO OP CITY BOULEVARD, Bronx, NY, USA",
+  "postalcode": "10475",
+  "borough": "Bronx"
+ },
+ "geosearch|757 Concourse Village West, Bronx, NY 10451": {
+  "lng": -73.923246,
+  "lat": 40.823917,
+  "label": "757 CON VILLAGE WEST, Bronx, NY, USA",
+  "postalcode": "10451",
+  "borough": "Bronx"
+ },
+ "geosearch|760 East Gun Hill Road, Bronx, NY 10467": {
+  "lng": -73.863806,
+  "lat": 40.876078,
+  "label": "760 EAST GUN HILL ROAD, Bronx, NY, USA",
+  "postalcode": "10467",
+  "borough": "Bronx"
+ },
+ "geosearch|79-20 Queens Boulevard, Queens, NY": {
+  "lng": -73.855153,
+  "lat": 40.727077,
+  "label": "79-020 QUEENS BOULEVARD, Rego Park, NY, USA",
+  "postalcode": "11374",
+  "borough": "Queens"
+ },
+ "geosearch|79-20 Queens Boulevard, Queens, NY 11373": {
+  "lng": -73.884657,
+  "lat": 40.737768,
+  "label": "79-00 QUEENS BOULEVARD, Elmhurst, NY, USA",
+  "postalcode": "11373",
+  "borough": "Queens"
+ },
+ "geosearch|791 EMPIRE BOULEVARD, Brooklyn, NY 11213": {
+  "lng": -73.936059,
+  "lat": 40.663942,
+  "label": "791 EMPIRE BOULEVARD, Brooklyn, NY, USA",
+  "postalcode": "11213",
+  "borough": "Brooklyn"
+ },
+ "geosearch|80 Willoughby Street, Brooklyn, NY 11201": {
+  "lng": -73.985514,
+  "lat": 40.691955,
+  "label": "80 WILLOUGHBY STREET, Brooklyn, NY, USA",
+  "postalcode": "11201",
+  "borough": "Brooklyn"
+ },
+ "geosearch|808 Cauldwell Ave., Bronx, NY 10456": {
+  "lng": -73.9076,
+  "lat": 40.82045,
+  "label": "808 CAULDWELL AVENUE, Bronx, NY, USA",
+  "postalcode": "10456",
+  "borough": "Bronx"
+ },
+ "geosearch|82 LEWIS AVENUE, Brooklyn, NY 11206": {
+  "lng": -73.937737,
+  "lat": 40.694687,
+  "label": "82 LEWIS AVENUE, Brooklyn, NY, USA",
+  "postalcode": "11206",
+  "borough": "Brooklyn"
+ },
+ "geosearch|829 Father Capodanno Blvd., Staten Island, NY 10305": {
+  "lng": -74.08334,
+  "lat": 40.57588,
+  "label": "829 FATHER CAPODANNO BOULEVARD, Staten Island, NY, USA",
+  "postalcode": "10305",
+  "borough": "Staten Island"
+ },
+ "geosearch|830 HUNTS POINT AVENUE, Bronx, NY 10474": {
+  "lng": -73.887977,
+  "lat": 40.817371,
+  "label": "830 HUNT'S POINT AVENUE, Bronx, NY, USA",
+  "postalcode": "10474",
+  "borough": "Bronx"
+ },
+ "geosearch|832 MARCY AVENUE, Brooklyn, NY 11216": {
+  "lng": -73.947991,
+  "lat": 40.684611,
+  "label": "832 MARCY AVENUE, Brooklyn, NY, USA",
+  "postalcode": "11216",
+  "borough": "Brooklyn"
+ },
+ "geosearch|8787 24 AVENUE, Brooklyn, NY 11214": {
+  "lng": -73.993823,
+  "lat": 40.594567,
+  "label": "8787 24 AVENUE, Brooklyn, NY, USA",
+  "postalcode": "11214",
+  "borough": "Brooklyn"
+ },
+ "geosearch|88-14 Justice Avenue, Queens, NY 11373": {
+  "lng": -73.875276,
+  "lat": 40.736629,
+  "label": "88-14 JUSTICE AVENUE, Elmhurst, NY, USA",
+  "postalcode": "11373",
+  "borough": "Queens"
+ },
+ "geosearch|88-24 Myrtle Ave, Queens, NY 11385": {
+  "lng": -73.857578,
+  "lat": 40.702568,
+  "label": "88-24 MYRTLE AVENUE, Fresh Pond, NY, USA",
+  "postalcode": "11385",
+  "borough": "Queens"
+ },
+ "geosearch|89-25 161 street, Queens, NY 11432": {
+  "lng": -73.799328,
+  "lat": 40.705857,
+  "label": "89-25 161 STREET, Jamaica, NY, USA",
+  "postalcode": "11432",
+  "borough": "Queens"
+ },
+ "geosearch|9 Hanover Place, Brooklyn, NY 11201": {
+  "lng": -73.982133,
+  "lat": 40.688913,
+  "label": "9 HANOVER PLACE, Brooklyn, NY, USA",
+  "postalcode": "11201",
+  "borough": "Brooklyn"
+ },
+ "geosearch|900 Tinton Avenue, Bronx, NY 10456": {
+  "lng": -73.902644,
+  "lat": 40.821739,
+  "label": "900 TINTON AVENUE, Bronx, NY, USA",
+  "postalcode": "10456",
+  "borough": "Bronx"
+ },
+ "geosearch|905 WINTHROP STREET, Brooklyn, NY 11203": {
+  "lng": -73.928522,
+  "lat": 40.658934,
+  "label": "905 WINTHROP STREET, Brooklyn, NY, USA",
+  "postalcode": "11203",
+  "borough": "Brooklyn"
+ },
+ "geosearch|92-53 Springfield Boulevard, Queens, NY 11428": {
+  "lng": -73.736907,
+  "lat": 40.723399,
+  "label": "92-53 SPRINGFIELD BOULEVARD, Queens Village, NY, USA",
+  "postalcode": "11428",
+  "borough": "Queens"
+ },
+ "geosearch|955 HUTCHINSON RIVER PARKWAY, Bronx, NY 10465": {
+  "lng": -73.837279,
+  "lat": 40.826688,
+  "label": "955 HUTCHINSON RIVER PARKWAY, Bronx, NY, USA",
+  "postalcode": "10465",
+  "borough": "Bronx"
+ },
+ "geosearch|956 EAST 82 STREET, Brooklyn, NY 11236": {
+  "lng": -73.910929,
+  "lat": 40.635339,
+  "label": "956 EAST 82 STREET, Brooklyn, NY, USA",
+  "postalcode": "11236",
+  "borough": "Brooklyn"
+ },
+ "geosearch|965 LONGWOOD AVENUE, Bronx, NY 10459": {
+  "lng": -73.897863,
+  "lat": 40.81776,
+  "label": "965 LONGWOOD AVENUE, Bronx, NY, USA",
+  "postalcode": "10459",
+  "borough": "Bronx"
+ },
+ "geosearch|97-29 64th Rd, Queens, NY 11374": {
+  "lng": -73.858606,
+  "lat": 40.729725,
+  "label": "97-29 64 ROAD, Rego Park, NY, USA",
+  "postalcode": "11374",
+  "borough": "Queens"
+ },
+ "geosearch|970 VERMONT STREET, Brooklyn, NY 11207": {
+  "lng": -73.886454,
+  "lat": 40.655419,
+  "label": "970 VERMONT STREET, Brooklyn, NY, USA",
+  "postalcode": "11207",
+  "borough": "Brooklyn"
+ },
+ "geosearch|999 JAMAICA AVENUE, Brooklyn, NY 11208": {
+  "lng": -73.869075,
+  "lat": 40.693017,
+  "label": "999 JAMAICA AVENUE, Brooklyn, NY, USA",
+  "postalcode": "11208",
+  "borough": "Brooklyn"
+ },
+ "nominatim|217 N 10th Street, Brooklyn, NY 11211": {
+  "lat": 40.718084,
+  "lng": -73.953478,
+  "label": "217 North 10th Street",
+  "postalcode": "11211",
+  "borough": "Brooklyn"
+ },
+ "nominatim|79-20 Queens Boulevard, Queens, NY 11373": {
+  "lat": 40.737635,
+  "lng": -73.88381,
+  "label": "79-20 Queens Boulevard",
+  "postalcode": "11373",
+  "borough": "Queens"
+ }
+}
