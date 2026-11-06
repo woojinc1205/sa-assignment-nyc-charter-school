@@ -1,0 +1,36 @@
+{
+  "name": "nyc-charter-school-map",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Mobile-first map of NYC charter schools (Success Academy interview assignment).",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "predev": "node scripts/copy-maplibre-worker.ts",
+    "dev": "next dev",
+    "prebuild": "node scripts/copy-maplibre-worker.ts",
+    "build": "next build",
+    "start": "npx serve out",
+    "typecheck": "tsc --noEmit",
+    "data": "node scripts/build-data.ts",
+    "data:refresh": "node scripts/build-data.ts --refresh"
+  },
+  "dependencies": {
+    "maplibre-gl": "6.15.0",
+    "next": "16.4.2",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@turf/boolean-point-in-polygon": "7.4.0",
+    "@turf/helpers": "7.4.0",
+    "@types/geojson": "7946.0.16",
+    "@types/node": "22.20.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "fast-xml-parser": "5.11.2",
+    "typescript": "5.9.3"
+  }
+}

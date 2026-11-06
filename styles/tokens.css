@@ -1,0 +1,78 @@
+/*
+ * Success Academy design tokens — section 10 of docs/success-academy-design-system.md (drop-in).
+ * Everything else in the app references these variables; no raw hex values outside this file.
+ */
+:root {
+  /* Brand */
+  --sa-orange: #F7941E;
+  --sa-orange-hover: #F47521;
+  --sa-orange-deep: #EC8D1C;
+  --sa-blue: #005E9E;
+  --sa-blue-hover: #004676;
+  --sa-navy: #192C4B;
+  --sa-black: #000;
+  --sa-white: #fff;
+
+  /* Support */
+  --sa-light-blue: #00AEEF;
+  --sa-green: #2ABB7F;
+  --sa-slate: #37465A;
+  --sa-grey-text: #636466;
+  --sa-grey: #ACACAC;
+  --sa-border: #CCCCCC;
+  --sa-bg-grey: #F2F2F2;
+  --sa-bg-pale-blue: #F9FAFF;
+  --sa-bg-cream: #FFF5EB;
+  --sa-error: #ED1C24;
+
+  /* Type */
+  --sa-font: "AkkuratLL", "Inter", Arial, Helvetica, sans-serif;
+  --fs-display: 3.125rem;  /* 50 */
+  --fs-h2: 2.5rem;         /* 40 */
+  --fs-stat: 2.8125rem;    /* 45 */
+  --fs-h3: 1.75rem;        /* 28 */
+  --fs-lead: 1.5rem;       /* 24 */
+  --fs-h4: 1.375rem;       /* 22 */
+  --fs-h5: 1.125rem;       /* 18 */
+  --fs-body: 1rem;         /* 16 */
+  --fs-small: .875rem;     /* 14 */
+  --fs-nav: .75rem;        /* 12 */
+  --lh-body: 1.56;
+  --lh-heading: 1.25;
+  --fw-regular: 400;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  /* Space */
+  --space-1: .25rem; --space-2: .5rem; --space-3: .75rem; --space-4: 1rem;
+  --space-6: 1.5rem; --space-8: 2rem; --space-12: 3rem; --space-20: 5rem;
+  --space-24: 6rem;
+  --section-py: 6rem;        /* 3rem ≤768px */
+  --container-px: 6.25rem;   /* 2rem ≤768px */
+  --container-max: 1600px;
+
+  /* Shape & motion */
+  --radius: 0;
+  --border-hairline: 1px solid var(--sa-border);
+  --border-focus: 2px solid var(--sa-orange);
+  --focus-ring: 0 0 0 3px #fff;
+  --overlay-hero: rgba(0,0,0,.4);
+  --ease-reveal: cubic-bezier(.25,.46,.45,.94);
+  --dur-fast: .25s;
+  --dur-reveal: .5s;
+
+  /* App additions (derived from the tokens above) */
+  --scrim: rgba(0,0,0,.5);   /* design system 6: modal scrim */
+  --touch: 44px;             /* minimum touch target (PRD 7) */
+}
+
+@media (max-width: 768px) {
+  :root { --section-py: 3rem; --container-px: 2rem; }
+}
+
+.btn { font: 600 1rem/normal var(--sa-font); padding: .9rem 1.56rem;
+  border: 0; border-radius: 0; cursor: pointer; transition: background-color var(--dur-fast); }
+.btn-primary { background: var(--sa-orange); color: #fff; }
+.btn-primary:hover { background: var(--sa-orange-hover); }
+.btn-secondary { background: var(--sa-blue); color: #fff; }
+.btn-secondary:hover { background: var(--sa-blue-hover); }
