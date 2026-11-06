@@ -5,7 +5,7 @@ It plots **436 campuses (298 schools)** across the five boroughs, with a Map vie
 borough and grade-level filters, and a detail view for every school.
 
 Built with **Next.js (App Router) + TypeScript** and **MapLibre GL JS**, with a TypeScript data pipeline.
-It is a static site: no backend, no tracking, and no API keys. The direction was based on research done on Grok Bot.
+It is a static site: no backend, no tracking, and no API keys. The direction was based on my research done on Grok Bot.
 
 ## Reference documents
 
